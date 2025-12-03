@@ -1,0 +1,28 @@
+{
+  "collections": {
+    "orders": {
+      "read": "all",
+      "write": "creator",
+      "fields": {
+        "selectedBidId": {
+          "type": "string",
+          "description": "选中的报价ID",
+          "permissions": {
+            "read": "all",
+            "write": "all"
+          }
+        },
+        "driverLocked": {
+          "type": "boolean",
+          "description": "司机是否已锁定订单",
+          "permissions": {
+            "read": "all",
+            "write": "all"
+          }
+        }
+      }
+    }
+  }
+}
+
+
